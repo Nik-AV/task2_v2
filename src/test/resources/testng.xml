@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" >
+    <test name="OnlinerTest">
+        <classes>
+            <class name="tests.OnlinerTest"/>
+            <parameter name="navigationItemValue" value="Каталог"></parameter>
+            <parameter name="catalogNavigationItemValue" value="Электроника"></parameter>
+            <parameter name="sectionNavigationItemValue" value="Телевидение"></parameter>
+            <parameter name="subSectionNavigationItemValue" value="Телевизоры"></parameter>
+            <parameter name="Price" value="1000"></parameter>
+            <parameter name="Resolution" value="1920x1080"></parameter>
+            <parameter name="Title" value="samsung"></parameter>
+            <parameter name="MinInches" value="400"></parameter>
+            <parameter name="MaxInches" value="500"></parameter>
+        </classes>
+    </test>
+</suite>
